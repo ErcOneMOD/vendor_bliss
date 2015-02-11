@@ -34,7 +34,8 @@ V1.4.3
 Added uninstaller. Now you can remove mod with terminal.
 
 V1.4.4
-Fixed problems while flashing (some users report)
+Fixed problems while flashing (some 
+users report)
 
 V1.4.5
 Seeder fixed (forgot one line in updater-script)
@@ -48,3 +49,9 @@ Seeder update (If working, log file is empty if not, you will se log)
 R/W speed set to 2048
 Sleepers disabled
 Added changelog in /data/L Speed/Changelog
+
+V1.5.1
+Cache pressure changed to 100
+Removed Net tweaks (default is better)
+Seeder disabled after flash,because some users report lags, you need to enable it from terminal if you want
+Removed "disable sleepers" cause lags

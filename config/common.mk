@@ -280,7 +280,6 @@ PRODUCT_COPY_FILES += \
     vendor/bliss/prebuilt/common/L_Speed/system/etc/init.d/02zipalign:system/etc/init.d/02zipalign \
     vendor/bliss/prebuilt/common/L_Speed/system/etc/init.d/03ram_manager:system/etc/init.d/03ram_manager \
     vendor/bliss/prebuilt/common/L_Speed/system/etc/init.d/04cleaner:system/etc/init.d/04cleaner \
-    vendor/bliss/prebuilt/common/L_Speed/system/etc/init.d/Seeder:system/etc/init.d/Seeder \
     vendor/bliss/prebuilt/common/L_Speed/system/etc/seeder_scripts/Seeder:system/etc/seeder_scripts/Seeder \
     vendor/bliss/prebuilt/common/L_Speed/system/xbin/entro:system/xbin/entro \
     vendor/bliss/prebuilt/common/L_Speed/system/xbin/openvpn:system/xbin/openvpn \
