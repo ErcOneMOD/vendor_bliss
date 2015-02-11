@@ -6,7 +6,7 @@ RUN_EVERY=108000
 
 #Zipalign /Data 
 
-LOG=/data/Tweaks/zipalign.log
+LOG=/data/L_Speed/Logs/zipalign.log
 ZIPALIGNDB=/data/zipalign.db
 
 if [ -e $LOG ]; then
@@ -17,7 +17,7 @@ if [ ! -f $ZIPALIGNDB ]; then
 	touch $ZIPALIGNDB;
 fi;
 
-echo "# L Speed log" | tee -a $LOG
+echo "# L Speed zipalign log" | tee -a $LOG
 echo "" | tee -a $LOG
 echo "Starting Automatic ZipAlign $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG
 for DIR in /data/app ; do

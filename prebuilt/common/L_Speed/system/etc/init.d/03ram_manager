@@ -1,8 +1,11 @@
 #!/system/bin/sh
 
-LOG=/data/Tweaks/ram_manager.log
+LOG=/data/L_Speed/Logs/ram_manager.log
 
-echo "# L Speed log " | tee -a $LOG
+busybox rm -f $LOG
+busybox touch $LOG
+
+echo "# L Speed ram management log " | tee -a $LOG
 echo "" | tee -a $LOG
 echo "$( date +"%m-%d-%Y %H:%M:%S" ) Tweaking minfree values & adj lowmem values..." | tee -a $LOG;
 

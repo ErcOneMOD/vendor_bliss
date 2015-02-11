@@ -268,21 +268,24 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # L Speed
 PRODUCT_COPY_FILES += \
-    vendor/bliss/prebuilt/common/L_speed/data/Tweaks/kernelTweaks.log:data/Tweaks/kernelTweaks.log \
-    vendor/bliss/prebuilt/common/L_speed/data/Tweaks/ram_manager.log:data/Tweaks/ram_manager.log \
-    vendor/bliss/prebuilt/common/L_speed/data/Tweaks/Seeder_v7.log:data/Tweaks/Seeder_v7.log \
-    vendor/bliss/prebuilt/common/L_speed/data/Tweaks/zipalign.log:data/Tweaks/zipalign.log \
-    vendor/bliss/prebuilt/common/L_speed/system/bin/seeder:system/bin/seeder \
-    vendor/bliss/prebuilt/common/L_speed/system/bin/uninstaller:system/bin/uninstaller \
-    vendor/bliss/prebuilt/common/L_speed/system/etc/init.d/01kernelTweaks:system/etc/init.d/01kernelTweaks \
-    vendor/bliss/prebuilt/common/L_speed/system/etc/init.d/02zipalign:system/etc/init.d/02zipalign \
-    vendor/bliss/prebuilt/common/L_speed/system/etc/init.d/03ram_manager:system/etc/init.d/03ram_manager \
-    vendor/bliss/prebuilt/common/L_speed/system/etc/init.d/Seeder:system/etc/init.d/Seeder \
-    vendor/bliss/prebuilt/common/L_speed/system/etc/seeder_scripts/Seeder:system/etc/seeder_scripts/Seeder \
-    vendor/bliss/prebuilt/common/L_speed/system/xbin/entro:system/xbin/entro \
-    vendor/bliss/prebuilt/common/L_speed/system/xbin/openvpn:system/xbin/openvpn \
-    vendor/bliss/prebuilt/common/L_speed/system/xbin/rngd:system/xbin/rngd \
-    vendor/bliss/prebuilt/common/L_speed/system/xbin/zipalign:system/xbin/zipalign
+    vendor/bliss/prebuilt/common/L_Speed/data/L_Speed/Changelog/~~~CHANGELOG~~~.txt:data/L_Speed/Changelog/~~~CHANGELOG~~~.txt \
+    vendor/bliss/prebuilt/common/L_Speed/data/L_Speed/Logs/cleaner.log:data/L_Speed/Logs/cleaner.log \
+    vendor/bliss/prebuilt/common/L_Speed/data/L_Speed/Logs/kernelTweaks.log:data/L_Speed/Logs/kernelTweaks.log \
+    vendor/bliss/prebuilt/common/L_Speed/data/L_Speed/Logs/ram_manager.log:data/L_Speed/Logs/ram_manager.log \
+    vendor/bliss/prebuilt/common/L_Speed/data/L_Speed/Logs/Seeder_v7.log:data/L_Speed/Logs/Seeder_v7.log \
+    vendor/bliss/prebuilt/common/L_Speed/data/L_Speed/Logs/zipalign.log:data/L_Speed/Logs/zipalign.log \
+    vendor/bliss/prebuilt/common/L_Speed/system/bin/seeder:system/bin/seeder \
+    vendor/bliss/prebuilt/common/L_Speed/system/bin/uninstaller:system/bin/uninstaller \
+    vendor/bliss/prebuilt/common/L_Speed/system/etc/init.d/01kernelTweaks:system/etc/init.d/01kernelTweaks \
+    vendor/bliss/prebuilt/common/L_Speed/system/etc/init.d/02zipalign:system/etc/init.d/02zipalign \
+    vendor/bliss/prebuilt/common/L_Speed/system/etc/init.d/03ram_manager:system/etc/init.d/03ram_manager \
+    vendor/bliss/prebuilt/common/L_Speed/system/etc/init.d/04cleaner:system/etc/init.d/04cleaner \
+    vendor/bliss/prebuilt/common/L_Speed/system/etc/init.d/Seeder:system/etc/init.d/Seeder \
+    vendor/bliss/prebuilt/common/L_Speed/system/etc/seeder_scripts/Seeder:system/etc/seeder_scripts/Seeder \
+    vendor/bliss/prebuilt/common/L_Speed/system/xbin/entro:system/xbin/entro \
+    vendor/bliss/prebuilt/common/L_Speed/system/xbin/openvpn:system/xbin/openvpn \
+    vendor/bliss/prebuilt/common/L_Speed/system/xbin/rngd:system/xbin/rngd \
+    vendor/bliss/prebuilt/common/L_Speed/system/xbin/zipalign:system/xbin/zipalign
 
 # Nova Launcher
 PRODUCT_COPY_FILES += \
