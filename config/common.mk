@@ -268,7 +268,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # L Speed
 PRODUCT_COPY_FILES += \
-    vendor/bliss/prebuilt/common/L_Speed_v1.5.1.zip:system/addon.d/L_Speed_v1.5.1.zip
+    vendor/bliss/prebuilt/common/L_Speed.zip:system/addon.d/L_Speed.zip
 
 # Nova Launcher
 PRODUCT_COPY_FILES += \
