@@ -1,8 +1,8 @@
 # Versioning System For Bliss
 # Bliss RELEASE VERSION
-BLISS_VERSION_MAJOR = 2
+BLISS_VERSION_MAJOR = 3
 BLISS_VERSION_MINOR = 1
-BLISS_VERSION_MAINTENANCE =
+BLISS_VERSION_MAINTENANCE =59
 
 VERSION := $(BLISS_VERSION_MAJOR).$(BLISS_VERSION_MINOR)$(BLISS_VERSION_MAINTENANCE)
 
@@ -16,11 +16,11 @@ endif
 ifdef BLISS_RELEASE
     BLISS_BUILDTYPE := RELEASE
 endif
-# Set GamerMod if no buildtype set (Buildtype should ONLY be set by BLISS Devs!)
+# Set ErcOne if no buildtype set (Buildtype should ONLY be set by BLISS Devs!)
 ifdef BLISS_BUILDTYPE
 else
-    BLISS_BUILDTYPE := GamerMod
-    BLISS_VERSION_MAJOR := 2
+    BLISS_BUILDTYPE := ErcOne
+    BLISS_VERSION_MAJOR := 3
     BLISS_VERSION_MINOR := 1
 endif
 
